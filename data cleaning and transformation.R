@@ -11,10 +11,16 @@ head(divvy_station_2013)
 str(divvy_station_2013)
 summary(divvy_station_2013)
 View(divvy_station_2013)
+n_distinct(divvy_station_2013$name)
+unique(divvy_station_2013$name)
 
 divvy_station_2017_2 <- read_csv('/home/hduser/projects for portfolios/divvy_data/Divvy_Stations_2017_Q3Q4.csv')
 View(divvy_station_2017_2)
 spec(divvy_station_2017_2)
+summary(divvy_station_2017_2)
+n_distinct(divvy_station_2017_2$name)
+unique(divvy_station_2017_2$name)
+
 
 # Read bike trip data
 divvy_trip_2013 <- read_csv('/home/hduser/projects for portfolios/divvy_data/Divvy_Trips_2013.csv')
