@@ -37,8 +37,13 @@ station_number_byyear <- divvy_station_2017 %>%
 print(station_number_byyear)
 
 # Read bike trip data
+divvy_trip_202406 <- read_csv('/home/hduser/projects for portfolios/divvy_data/202406-divvy-tripdata.csv')
+spec(divvy_trip_202406)
+summary(divvy_trip_202406)
+View(divvy_trip_202406)
+
+# Read bike trip data
 divvy_trip_2013 <- read_csv('/home/hduser/projects for portfolios/divvy_data/Divvy_Trips_2013.csv')
-spec(divvy_trip_2013)
-summary(divvy_trip_2013)
 View(divvy_trip_2013)
+
 
